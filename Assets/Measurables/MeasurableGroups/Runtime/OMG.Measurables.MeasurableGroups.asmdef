@@ -1,0 +1,16 @@
+{
+    "name": "OMG.Measurables.MeasurableGroups",
+    "rootNamespace": "OMG",
+    "references": [
+        "GUID:a3118281d13004fbc925714545bd9caf"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

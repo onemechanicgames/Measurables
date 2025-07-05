@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Measurables/Executor/UITK/MeasureableUI.uss?fileID=7433441132597879392&amp;guid=1cadd8a0043304f7583689b376bd861c&amp;type=3#MeasureableUI" />
+    <Unity.AppUI.UI.Panel name="measurable-ui" picking-mode="Ignore" style="flex-grow: 1; height: 100%; background-color: rgba(29, 29, 29, 0);">
+        <ui:ListView name="measurables-list" fixed-item-height="150" show-alternating-row-backgrounds="ContentOnly" horizontal-scrolling="false" class="measurables-list" style="display: flex;" />
+        <ui:VisualElement name="controls-container" class="controls-container">
+            <ui:VisualElement name="iterable-container" class="iterable-container" style="display: flex;">
+                <Unity.AppUI.UI.Button name="add-iteration-button" title="+" size="L" style="width: 100px; flex-grow: 0; height: 100%; -unity-text-align: middle-center; justify-content: center;" />
+            </ui:VisualElement>
+            <Unity.AppUI.UI.Button name="run-button" title="Run" size="L" style="width: 100px; flex-grow: 1; height: 100%; -unity-text-align: middle-center; justify-content: center;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="status-container" class="status-container" style="position: absolute; height: 30px; width: 100%; flex-grow: 1; bottom: 0; justify-content: center;">
+            <Unity.AppUI.UI.Text name="status-label" text="Status goes here" size="L" class="status-label" style="padding-left: 6px;" />
+        </ui:VisualElement>
+    </Unity.AppUI.UI.Panel>
+</ui:UXML>

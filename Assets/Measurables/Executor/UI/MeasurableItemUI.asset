@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 738b37bb213164d8c8e0a8932b98eaaf, type: 3}
+  m_Name: MeasurableItemUI
+  m_EditorClassIdentifier: 
+  _uiAsset: {fileID: 9197481963319205126, guid: 51027083abead4d318784ca8acd8b701, type: 3}

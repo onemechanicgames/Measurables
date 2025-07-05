@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 746dc5d1a077747979db67cfbb3f72b7
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _uiAsset: {fileID: 9197481963319205126, guid: 19ed010e740ca4c3d9cea8668a1c34d8, type: 3}
+  - _measurableItemUi: {fileID: 11400000, guid: 3c669ea6d38c442b2aacf9817ed694c6, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

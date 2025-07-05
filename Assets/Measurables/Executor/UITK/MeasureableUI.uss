@@ -1,0 +1,101 @@
+:root {
+    width: 100%;
+    height: 100%;
+    --white-font-color: rgb(226, 226, 226);
+    --black-font-color: rgb(0, 0, 0);
+    --text-size-small: 18px;
+    --text-size-medium: 24px;
+    --text-size-large: 40px;
+    --border-color-pressed: rgb(188, 188, 188);
+}
+
+.measurables-list {
+    flex-shrink: 1;
+    background-color: var(--appui-backgrounds-200);
+    flex-grow: 1;
+    position: relative;
+}
+
+.measurable-item-ui.unity-collection-view__item {
+    background-color: var(--appui-backgrounds-50);
+}
+
+.measurable-item-ui.unity-collection-view__item--alternative-background {
+    background-color: var(--appui-backgrounds-100);
+}
+
+.measurable-item-ui.unity-collection-view__item:hover {
+    background-color: var(--appui-backgrounds-100);
+}
+
+#measurable-ui .unity-collection-view:focus:enabled .unity-collection-view__item--selected {
+    background-color: var(--appui-backgrounds-300);
+    border-radius: 2px;
+    border-width: 2px;
+    border-color: var(--appui-primary-400);
+    margin-left: 40px;
+}
+
+.measurables-list .unity-list-view__empty-label {
+    color: var(--appui-foreground-100);
+    font-size: var(--text-size-large);
+    margin: 40px;
+}
+
+.controls-container {
+    flex-shrink: 1;
+    flex-grow: 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    flex-direction: row;
+    height: 120px;
+    background-color: var(--appui-primary-600);
+    margin-bottom: 30px;
+    min-height: 120px;
+}
+
+.iterable-container {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-self: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.iterable-container .appui-numericalfield {
+    height: auto;
+    width: auto;
+    min-width: 80px;
+    border-width: 4px;
+    border-radius: 4px;
+    margin: 4px;
+    border-color: var(--aapui-primary-1300);
+}
+
+.iterable-container #unity-text-input .unity-text-element {
+    -unity-text-align: middle-center;
+}
+
+.iterable-container .unity-text-element--inner-input-field-component {
+    font-size: var(--text-size-medium);
+}
+
+#run-button #appui-button__title {
+    font-size: var(--appui-font-sizes-500);
+}
+
+#add-iteration-button #appui-button__title {
+    font-size: var(--appui-font-sizes-800);
+}
+
+.status-container {
+    background-color: var(--appui-backgrounds-200);
+}
+
+.status-label {
+    color: var(--appui-foreground-100);
+}

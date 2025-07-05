@@ -1,0 +1,16 @@
+{
+    "name": "OMG.Measurables.Core",
+    "rootNamespace": "OMG",
+    "references": [
+        "GUID:1637fd075b37b42a9a261d2c43948411"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

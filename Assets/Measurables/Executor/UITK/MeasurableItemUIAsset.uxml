@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Unity.AppUI.UI.Panel name="measurable-item-ui" class="measurable-item-ui" style="flex-grow: 1;">
+        <Unity.AppUI.UI.Text text="Title" name="measurable-title" style="padding-left: 20px; -unity-font-style: bold; margin-top: 6px; margin-right: 6px; margin-bottom: 6px; margin-left: 6px; font-size: 34px;" />
+        <ui:VisualElement style="padding-left: 60px; margin-top: 2px; margin-right: 2px; margin-bottom: 2px; margin-left: 2px;">
+            <Unity.AppUI.UI.Text size="XL" text="Description" name="measurable-description" style="font-size: 28px;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-direction: row; padding-left: 60px; margin-top: 2px; margin-right: 2px; margin-bottom: 2px; margin-left: 2px;">
+            <Unity.AppUI.UI.Text size="L" text="Iterable :" style="font-size: 24px;" />
+            <Unity.AppUI.UI.Text size="L" text="Label" name="iterable-value" style="margin-left: 4px; font-size: 22px;" />
+        </ui:VisualElement>
+    </Unity.AppUI.UI.Panel>
+</ui:UXML>

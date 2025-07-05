@@ -1,0 +1,20 @@
+{
+    "name": "OMG.Measurables.Executor",
+    "rootNamespace": "OMG",
+    "references": [
+        "OMG.Measurables.Core",
+        "OMG.Extensions",
+        "OMG.Utilities",
+        "OMG.Measurables.MeasurableGroups",
+        "Unity.AppUI"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
